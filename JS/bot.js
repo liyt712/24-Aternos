@@ -4,10 +4,10 @@ console.log('Starting...')
 
 function createBot () {
     const bot = mineflayer.createBot({
-    host: "localhost",
-    port: "25565",
-    username: "24ATERNOSBOT",
-    version: false
+    host: "fasiplay.aternos.me",
+    port: "25792",
+    username: "SBO",
+    version: 1.16.5
     })
     bot.on('login', function() {
       bot.chat('/reginster 123123123 123123123')
